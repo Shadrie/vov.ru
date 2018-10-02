@@ -1,0 +1,484 @@
+*{
+   margin: 0px;
+   padding: 0px;    
+   margin-block-start: 0em;
+   margin-block-end: 0em; 
+}
+
+body 
+{
+  background: black;      
+  display: block;
+  margin: 8px;  
+  text-align: -webkit-center;
+  white-space: nowrap;
+}
+
+div
+{
+  display: block;         
+}              
+
+.vov-site
+{
+  width: 1024px;   
+  background: white; 
+  text-align: -webkit-left;  
+  margin: 0;     
+}
+
+.vov-head
+{
+    width: 100%;
+    height: 362px;   
+}
+
+.vov-head-pic
+{
+    width: 439px;
+    height: 342px;      
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(https://pp.userapi.com/c846419/v846419447/f1944/oI7EW4bG4v0.jpg);
+}
+
+.vov-head-text
+{              
+    margin-left: -0.25em; /*ХАКИ*/           
+    white-space: normal;  
+    display: inline-block;
+    vertical-align: top;  
+    width: 565px;
+    height: 362px;
+    background-image: url(https://pp.userapi.com/c847018/v847018286/f5729/fZd7hcs_dqs.jpg);
+}
+
+.vov-main-title
+{
+    width: 845px;
+    height: 78px;   
+    line-height: 78px;
+    padding-top: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: Arial;
+    color: #cf2027;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+    position: relative;
+    left: -400px; 
+    text-align:right;
+    vertical-align:bottom; 
+}  
+
+.vov-main-title span
+{
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 36px; /* <-- adjust this */
+}
+
+.vov-description
+{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #005290;
+    position: relative;
+    width: 435px;
+    /*height: 267px;*/
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.vov-sidebar
+{                      
+    position: static!important;  
+    vertical-align: top;    
+    display: inline-block;
+    width: 260px;                
+    height: 799px;
+    background-image: url(https://pp.userapi.com/c852024/v852024349/e0a7/MRV1Vdxfohg.jpg);
+    padding-top: 40px;
+}
+
+.vov-sidebar ul 
+{
+    line-height: 32px;    
+    font-size: 23px;  
+    text-align: -webkit-center;
+    list-style-type: none;
+    margin-bottom: 1px;
+    font-family: Impact;           
+    padding-inline-start: 0px;
+}
+
+.vov-sidebar ul li
+{
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.vov-sidebar a 
+{
+    color: black;
+    text-decoration: none;  
+    white-space: normal;  
+}    
+
+.vov-sidebar a:hover 
+{
+    color: black;
+    font-size:18pt;
+    text-decoration: none;  
+    white-space: normal;  
+}
+
+.vov-site-content
+{        
+    background-image: url(https://sun1-4.userapi.com/c830609/v830609489/197f4b/wIFOnHTM6DU.jpg);          
+    background-position: right;
+}
+
+.vov-content-area
+{                  
+    vertical-align: top;    
+    display: inline-block;
+    width: 764px;      
+    height: 739px; 
+    white-space: normal;   
+}
+
+.vov-site-main
+{                                   
+}
+
+.vov-site-footer
+{                         
+    width: 1024px;
+    height: 190px;
+    padding-top: 10px;
+    background-color: rgb(236, 222, 193);
+    font-size: 16px;      
+    text-align: -webkit-center;
+}
+
+.heroes 
+{
+    width: 252px;
+    height: 192px;   
+    background-image: url(https://pp.userapi.com/c851424/v851424273/d27b/izaQZ5BSpng.jpg); 
+    border: none;
+}    
+
+.heroes:hover
+{
+    width: 252px;
+    height: 0px; /*ХАКИ*/
+    padding-top: 192px;
+    background-origin: content-box;
+    background-image: url(https://pp.userapi.com/c851424/v851424273/d27b/izaQZ5BSpng.jpg); 
+    border: none;
+}
+
+
+/*По категориям*/
+/*.category-museums *{ } */
+.content-area
+{                  
+    vertical-align: top;    
+    display: inline-block;
+    width: 764px;      
+    height: 739px; 
+    white-space: normal;   
+}     
+
+.scroll-block
+{
+    height: 600px;
+    overflow-y: scroll;
+    font-weight: 200;
+}  
+
+.site-main
+{                                     
+    padding-left:50px;               
+    padding-top:100px;   
+}
+
+.page-header *
+{
+    display: none;
+}                           
+
+.single-post .category-museums .post-thumbnail
+{
+    display: none;
+}
+
+#comments
+{
+    display: none;
+}
+
+.post-navigation
+{
+    display: none;
+}   
+
+.entry-footer
+{
+    padding-top: 20px;
+}
+
+.entry-footer .posted-on, .byline, .cat-links
+{
+    display: none;
+}            
+
+.heroes-img 
+{                 
+    display: inline-block;
+    width: 289px;
+    height: 250px;   
+    background-image: url(http://vov.mgutm.ru/images/star.png); 
+    border: none;      
+    margin-left: 20px;
+    vertical-align: top;
+}    
+
+.heroes-img:hover
+{               
+    height: 0px; /*ХАКИ*/
+    padding-top: 250px;
+    background-origin: content-box;
+}         
+
+.tragedy-img 
+{
+    display: inline-block;
+    width: 340px;
+    height: 264px;
+    background-image: url(http://vov.mgutm.ru/images/tragedy.png); 
+    border: none;         
+    margin-top: -120px;   
+    margin-left: -15px;
+    vertical-align: top;
+}  
+
+.tragedy-img:hover
+{               
+    height: 0px; /*ХАКИ*/
+    padding-top: 264px;
+    background-origin: content-box;
+}
+
+.my-war-img 
+{              
+    display: inline-block;
+    width: 270px;
+    height: 316px; 
+    background-image: url(http://vov.mgutm.ru/images/my-war.png); 
+    border: none;      
+    margin-top: 70px;
+    vertical-align: top;
+}  
+
+.my-war-img:hover
+{               
+    height: 0px; /*ХАКИ*/
+    padding-top: 316px;
+    background-origin: content-box;
+}
+
+.medal-thumbnail img 
+{
+    width: 100px;
+    height: 134px;
+    margin-bottom: 20px;
+}
+
+.medal-table td, .museum-table td
+{
+    width: 100px;
+    height: 250px;
+    padding: 10px;   
+    text-align: -webkit-center;
+}
+
+.medal-table a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 18px;
+    border-spacing: 0px;
+}
+
+.post-thumbnail
+{ 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.entry-title
+{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: Arial;
+    color: #cf2027;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+}   
+
+.entry-content
+{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #005290;
+    width: 580px;
+}
+
+.desc-text
+{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #005290;
+    margin-top:25px;
+}
+
+.chrono-button
+{
+    width: 80px;
+    height: 25px;
+    padding-top: 10px;
+    border: 1px solid #990000;
+    background-color: #50f1b6;
+    display: inline-block;
+    vertical-align: top;
+    text-align: -webkit-center; 
+}
+
+.chrono-button a
+{
+   color: brue;
+   text-decoration: none; 
+   font-size: 18px;
+   font-family: 'Times New Roman';
+}
+
+.chrono-block
+{
+    width: 190px;
+    height: 419px;
+    border: 1px solid #990000;    
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: #005290;      
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-block
+{   
+    font: normal 68.8% Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fff;
+    margin: 0 50px 25px 0;
+    border-style: solid;
+    border-width:1px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #666666;
+}      
+
+.museum-thumbnail
+{
+    width: 300px;
+    height: 250px;  
+    overflow:hidden;  
+    padding: -10px; 
+}       
+
+.museum-thumbnail:hover img
+{  
+    margin-top: -250px;      
+}  
+
+.heroes-thumbnail img
+{
+    width:200px;  
+    height:auto;
+    margin-right: 10px;
+}
+
+.heroes-table tr 
+{
+    width:100%;
+}
+
+.heroes-table td
+{
+   vertical-align: top;
+}
+
+.heroes-content
+{
+    color: #005290;
+    font-family: 'Times New Roman';
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal;
+    padding-top:20px;
+}   
+
+.my-war-table
+{
+    table-layout: fixed;     
+    width:100%;  
+    padding-right: 50px;
+}
+
+.my-war-table td
+{
+   vertical-align: top;
+   text-align: center; 
+   width:50%;
+}    
+
+.my-war-thumbnail img
+{
+    width:220px;  
+    height:auto;
+}  
+ 
+.my-war-content
+{
+    color: #005290;
+    font-family: 'Times New Roman';
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: center;
+    font-variant: normal;
+}       
+
+.tragedy-thumbnail img
+{
+    width:300px;  
+    height:auto;
+}  
